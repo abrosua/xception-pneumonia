@@ -19,6 +19,17 @@ To limit our scope of work, we decided to tune the optimizer hyperparameter only
 1. Xception ([Chollet, 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf))
 2. VGG-16 ([Simonyan and Zisserman, 2015](https://arxiv.org/abs/1409.1556))
 
+The chosen model is the Xception network (train02) with the following settings:
+ - `Adam` optimizer
+	 - `learning_rate` = 5e-5
+ - `ReduceLROnPlateau` learning rate scheduler
+	 - `factor`	= 0.2
+	 - `patience`	= 3
+	 - `min_delta`	= 0.005
+ - `image_width` and `image_height` is 299 x 299
+ > Note: For complete training report, go check on `docs/Brief report - Xception Net for Pneumonia classifier.pdf`.
+
+
 ### Built With
 
 * [TensorFlow 2.1.0](https://www.tensorflow.org/)
