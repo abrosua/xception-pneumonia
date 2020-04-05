@@ -8,7 +8,7 @@ In this case, we're tasked to solve one problem from any public datasets. Hence,
 ### Methodology
 Convolutional Neural Networks (CNN), is currently the best solution for handling Computer Vision problem. However, harnessing its full potential might be very resourceful. Therefore we decided to use [transfer learning](https://en.wikipedia.org/wiki/Transfer_learning) on popular CNN architecture. The model is sorted from ImageNet's image classification [leaderboard](https://paperswithcode.com/sota/image-classification-on-imagenet), since ImageNet is consisted of thousands of classes, thus might provides model with better generalization.
 
-> Note: To simplify the problem, we used the [built-in models](https://www.tensorflow.org/api_docs/python/tf/keras/applications) that are available on TensorFlow Keras, and sorted by the ImageNet leaderboard.
+> Note: To simplify the problem, we used the [built-in models](https://www.tensorflow.org/api_docs/python/tf/keras/applications) that are available on TensorFlow Keras, and sorted by the ImageNet leaderboard. The network assessment is reported on `docs/pneumonia_classifier.xlsx`.
 
 Xception and VGG-16 network are chosen due to its performance and number of parameters. Since we're working on limited resources, "lighter" models are preferable.
 
