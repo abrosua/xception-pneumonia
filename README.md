@@ -1,7 +1,7 @@
 # Pneumonia Classification.
 
 ## First Machine Learning Project - MLCC
-classification of pneumonia disease divided into 2 classes Pneumonia or Normal
+classification of pneumonia disease divided into 2 classes Pneumonia or Normal <br />
 data source: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 ## Getting Started
